@@ -1,0 +1,408 @@
+/* initalise la page à zero*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* On demand à Css d'utiliser le ARIAL, et s'il ne trouve pâs Arial d'utilisé un autre autre format de font-familily qui est le "sans-serif"*/
+body
+{
+	font-family: Arial, sans-serif;
+	font-style: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wrapper
+
+{
+	width: 300px;
+	margin: 0 auto;
+	padding:0 auto;
+}
+
+}
+
+
+h1
+{	
+	font-family:'Crete-Round', serif;
+	font-size : 50px;
+	color: #444;
+}
+
+.orange
+{
+	color: #ff7A00; 
+}
+
+/* pour que la taille du titre reste en haut*/
+
+header 
+
+{
+	height: 120px
+}
+header h1 
+{
+		float: left;
+		margin-top: 40px;
+       
+}
+
+header nav 
+{  
+
+	margin-top: 50px;
+	float: right;
+}
+
+
+
+header nav ul li 
+{
+		display: inline-block;
+
+}
+
+a
+{
+	text-transform: uppercase;
+	color: black;
+	width: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 20px;
+	
+}
+/* bold pour afficher en gras*/
+
+a: hover
+{
+	color:  gray;
+}
+/* chancun des elements qui se trouve dans le nav et dans le lien qu'il se trouve dans le alors je que que tu fasse ça*/
+
+
+.element1
+{
+		display: inline-block;
+}
+
+/* main image*/
+
+/*important le background peut être une image ou un lien vers une image*/
+
+#main_image
+{
+	height:580px;
+	background: url(images/main.jpg) center;
+}
+
+h2
+{
+	font-size: 55px;
+	color: #444;
+
+}
+#main_image h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center; 
+	padding: 150px 0 50px 0;
+	margin: 20px;
+}
+
+
+/* border radius : pour avoir la forme d'un boutton*/
+.button_1
+{	display: block;
+	width: 120px;
+	height: 50px;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	background-color: #ff7a00;
+	line-height: 50px;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+.button_1:hover
+{
+	color: white;
+	background-color: blue;
+}
+
+/* le steps*/
+
+steps
+
+h4{
+	font-size: 30px;
+	color: #444;
+
+}
+/* pour desendre les elements qui seront veront après comme : partez en famille etc..*/
+.clear
+{
+ clear: both;
+}
+p
+{
+	font-size: 15px;
+	line-height:20px;
+	margin-right: 20px;
+	margin-left: 10px;
+	color: #444;
+}
+
+
+#steps ul {
+
+margin: 60px 0;
+margin-left: 300px;
+
+}
+
+
+#steps ul li h4
+{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-left: 10px
+}
+
+
+li{
+	text-decoration: none; 
+}
+
+#steps ul li 
+{
+	height: 200px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#steps p
+{
+	margin-bottom: 20px;
+}
+
+
+/* quand on affiche l'image no-repeat: c'est pour ne pas repeter les image dans le elements et top: pour le mettre en haut 
+et center cest pour centrer l'image*/ 
+
+
+#steps1
+{ 
+background: url('images/steps-icon-1.png') no-repeat top center;
+}
+    
+
+#steps2
+{
+	background: url('images/steps-icon-2.png') no-repeat top center;
+}
+
+
+#steps3
+{
+	background: url('images/steps-icon-3.png') no-repeat top center;
+}
+#steps
+{
+	margin: center ;
+}
+
+/* posiblities*/
+
+
+#possibilities{
+	background-color: #eee6e6;
+	padding: 60px 0;
+
+} 
+
+/*pour arrondire les dordures border-radius*/
+#possibilities article
+ {
+ 	
+	width: 460px;
+	height: 270px;
+	float: left;
+	border-radius: 8px;
+
+}
+
+/* pour deplacer les deux articles on utilise :le selecteur first child*/
+
+#possibilities article:first-child
+{
+	margin-right:20px;
+
+}
+
+.overlay 
+{
+	background-color: rgba(255,255, 255, 0.95); /* pour rendre quelque chose transparent à 0.5 ça apparait*/
+    height: 85%;
+    width: 200px; /* pour eviter que ça prend tous la place de 400px qu'on a mit pour l'article on rajoute 200px*/
+     padding: 20px;
+     border-radius: 10px 0 0 10px;
+     text-align: center;
+    
+}
+
+article h4
+{
+	font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 18px; 
+	border-bottom: 1px solid #ddd; /* pour créer un petit très en dessus du text*/
+	margin: 20px;
+	text-align: center;
+
+}
+
+
+small
+{
+	font-size: 18px;
+	font-style:italic;
+
+
+}
+
+
+#possibilities  p
+
+{
+text-align: center;
+margin-bottom: 60x; 
+padding-bottom: 40px;
+}
+
+.button_2
+
+{
+color: #fff;
+background-color: #ff7a00;
+font-size: 10px;
+text-align: center;
+padding: 6px 10px;
+
+margin-bottom: 10px;
+
+}
+
+.button_2:hover
+{
+	color: white;
+	background-color: blue;
+}
+
+.clear
+{
+ clear: both;
+}
+
+/*contact*/
+
+#contact
+{
+    text-align: center;
+	padding: 60px 0;
+	background-color= white;
+
+
+}
+
+#contact h3
+{
+	border-bottom: 1px solid blue;
+	width: 300px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 0 auto 20px auto; 
+}
+
+#contact p
+{
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+form
+{
+
+	margin: 60px 0 20px 0;
+
+}
+
+/* fontt weight : bold  pour rendre le texte en grand*/
+label{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+} 
+
+
+/* tous les input qui ont un attributs type []*/
+input [type="text"]
+{
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 5px;
+	border: 2px solid #ddd;
+
+}
+
+.button_3
+{
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 2px;
+} 
+
+.button_3:hover
+{ 	
+	color: white;
+	background-color: #444;
+	padding: 15;
+	border-style: none; 
+}
+
+/* footer*/
+
+
+footer
+{
+height 260px;
+text-align: center;
+background-color: #444;
+}
+
+footer h1
+
+{   
+	color: #fff;
+		text-align: center;
+		padding: 50px;
+}
+
+
+.Copyright
+{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px; 
+	padding-bottom: 30px;
+	color: #777;
+}
+
